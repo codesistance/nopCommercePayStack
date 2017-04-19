@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "";
+}
+@model CodesistancePayStackSettings
+@using Nop.Plugin.Payments.CodesistancePayStack.Models;
+@using Nop.Web.Framework;
+
+@using (Html.BeginForm())
+{
+    <table class="adminContent">
+        <tr>
+            <td class="adminTitle">
+                PayStack API Secret Key
+            </td>
+            <td class="adminData">
+                @Html.TextAreaFor(model => model.PayStackApiKey)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="save" class="k-button" value="Update" />
+            </td>
+        </tr>
+    </table>
+}

@@ -1,0 +1,20 @@
+﻿@{
+    Layout = "";
+}
+@model CodesistancePayStackSettings
+@using Nop.Plugin.Payments.CodesistancePayStack.Models;
+@using Nop.Web.Framework;
+
+@using (Html.BeginForm())
+{
+    <table class="adminContent">
+        <tr>
+            <td class="adminTitle">
+                PayStack API Secret Key
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.PayStackApiKey)
+            </td>
+        </tr>
+    </table>
+}
