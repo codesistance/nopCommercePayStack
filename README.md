@@ -3,4 +3,4 @@ A nopCommerce Custom Payment Method Plugin to allow users in Nigeria to accept p
 # Installation
 Copy the entire deployment into the Plugin Directory and restart your deployment 
 # Credits
-Special Thanks to @adebisi-fa
+Special Thanks to <a href="https://github.com/adebisi-fa">Adebisi Foluso A.<a>
